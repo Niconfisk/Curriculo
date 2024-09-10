@@ -16,7 +16,17 @@ O projeto é composto por dois arquivos principais:
 
 ## 📁 Estrutura de Arquivos
 
-/curriculo/ │ ├── /imagens/ │ ├── perfil.png # Imagem de perfil usada no currículo │ ├── mail.png # Ícone de e-mail │ ├── whatsapp.png # Ícone do WhatsApp │ ├── linkedin.png # Ícone do LinkedIn │ └── background.jpg # Imagem de fundo do currículo │ ├── index.html # Arquivo principal com a estrutura HTML do currículo ├── estilo.css # Arquivo CSS contendo o design do currículo └── README.md # Documentação do projeto
+- `/curriculo/`
+  - `/imagens/`
+    - `perfil.png` # Imagem de perfil usada no currículo
+    - `mail.png` # Ícone de e-mail
+    - `whatsapp.png` # Ícone do WhatsApp
+    - `linkedin.png` # Ícone do LinkedIn
+    - `background.jpg` # Imagem de fundo do currículo
+  - `index.html` # Arquivo principal com a estrutura HTML do currículo
+  - `estilo.css` # Arquivo CSS contendo o design do currículo
+  - `README.md` # Documentação do projeto
+
 
 ## 📑 Seções do Currículo
 
