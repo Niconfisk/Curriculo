@@ -1,0 +1,144 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #333;
+}
+
+section {
+    background-color: rgba(255, 255, 255, 0.9);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#perfil {
+    display: flex;
+    align-items: center;
+}
+
+#foto-perfil {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+}
+
+h1 {
+    font-size: 2rem;
+    color: #05ac74;
+}
+
+p {
+    font-size: 1.1rem;
+}
+
+ul.contatos {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul.contatos li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+ul.contatos img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+
+h2 {
+    border-bottom: 2px solid #0ec98a;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin-top: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+table thead {
+    background-color: #00b377;
+    color: white;
+    text-align: left;
+}
+
+table th, table td {
+    padding: 15px 20px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+table th {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+table tbody tr:nth-child(odd) {
+    background-color: #e9e9e9;
+}
+
+table tbody tr:hover {
+    background-color: #d0e4f5;
+}
+
+table td {
+    font-size: 1rem;
+    color: #333;
+}
+
+table tbody tr:last-child td {
+    border-bottom: none;
+}
+
+table tbody tr:first-child td:first-child {
+    border-top-left-radius: 10px;
+}
+
+table tbody tr:first-child td:last-child {
+    border-top-right-radius: 10px;
+}
+
+table tbody tr:last-child td:first-child {
+    border-bottom-left-radius: 10px;
+}
+
+table tbody tr:last-child td:last-child {
+    border-bottom-right-radius: 10px;
+}
+
+footer {
+    background-color: #272727;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+ }
+ 
