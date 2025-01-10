@@ -19,9 +19,8 @@ section {
 #perfil {
     display: flex;
     align-items: center;
+    flex-wrap: wrap; /* Permite quebra de linha em telas pequenas */
 }
-
-
 
 h1 {
     font-size: 2rem;
@@ -48,7 +47,6 @@ ul.contatos img {
     height: 20px;
     margin-right: 10px;
 }
-
 
 h2 {
     border-bottom: 2px solid #0ec98a;
@@ -81,7 +79,8 @@ table thead {
     text-align: left;
 }
 
-table th, table td {
+table th,
+table td {
     padding: 15px 20px;
     border-bottom: 1px solid #e0e0e0;
 }
@@ -135,9 +134,9 @@ footer {
     text-align: center;
     padding: 10px;
     width: 100%;
- }
+}
 
- .foto-perfil {
+.foto-perfil {
     display: block;
     width: 150px;
     height: 150px;
@@ -146,4 +145,45 @@ footer {
     object-position: top center;
     margin-right: 20px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 768px) {
+    #perfil {
+        flex-direction: column; 
+        text-align: center;
+    }
+
+    .foto-perfil {
+        margin: 0 auto 20px auto; 
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    table th,
+    table td {
+        padding: 10px 15px; /
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    table th,
+    table td {
+        padding: 8px 10px;
+        font-size: 0.9rem;
+    }
+
+    ul.contatos img {
+        width: 16px;
+        height: 16px;
+    }
 }
